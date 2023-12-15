@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entendendo o Dom</title>
+  <style>
+    body {
+      background-color: rgba(41, 41, 232, 0.438);
+      color: rgb(216, 201, 201);
+      font: normal 18pt Arial;
+    }
+
+    p {
+      color: rgb(220, 245, 236);
+    }
+
+    div {
+      color: rgb(216, 58, 58);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>O DOM(Document object Model)</h1>
+  <p> -Aqui veremos mais capítulos do resultado do DOM</p>
+  <p>Aprendendo a mexer com os elementos da arvore <strong>DOM</strong> em javaScript </p>
+  <!-- Usando Id na div  -->
+  <div class="msg">
+    <!-- var p1 = window.document.getElementsByTagName('p')[1]; aqui posso pegar qualquer tag -->
+    <!-- posso usar por  <div name="msg">  eu uso : var x = window.document.getElementsByClassName ('msg')[0]
+-->
+    <!-- posso usar por  <div id="msg"> Eu uso var m =window.document.getElementById('msg');-->
+    click Aqui
+  </div>
+
+  <script>
+    //veja  os DOM adicionando componentes 
+    window.document.writeln('Ola, mundo! ');
+    /* Tipo linguagem window.document.writeln(window.document.characterSet);
+     window.document.writeln(window.navigator.appName);Eu uso com vários elementos 
+         var e = window.document.getElementsByClassName ('p')[0]*/
+    /* window.document.writeln(window.document.URL); */
+
+    var p1 = window.document.getElementsByTagName('p')[1];// pegou o primeiro p coloque outros números para testar de acordo com sua arvore Dom
+    var corpo = window.document.body
+    corpo.style.background = 'write'
+
+    window.document.writeln('veja acima a Diferença' + p1.innerText)
+    /*  var dom1 = window.(method).document; */
+    document.write("Usando o tagname " + p1.innerHTML)//pucha as configurações do Html
+    /* Colocando uma var na div  */
+    /* getElementById */
+    /* var m =window.document.getElementById('msg');
+    m.style.background='blue';
+    m.innerHTML ='Veja a mudança'; */
+    //mesmo comando so que enorme . 
+    /*   window.document.getElementById('msg').innerHTML ='ola mundo' */
+    /*  window.alert(p1.innerHTML) */
+    /*   corpo.style.background='black' */
+
+    /* com classe é um método  mais recente*/
+    var d = window.document.querySelector('div.msg')
+    d.style.background = 'pink'
+   /* com id */
+    /* var d = window.document.querySelector('div#msg')
+    d.style.background = 'blue' */
+
+
+
+
+  </script>
+
+</body>
+
+</html>

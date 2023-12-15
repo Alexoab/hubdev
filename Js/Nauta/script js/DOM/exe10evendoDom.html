@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos </title>
+    <style>
+        div#area {
+            font: normal 33pt Arial;
+            background: rgb(97, 94, 91);
+            color: whitesmoke;
+            width: 369px;
+            height: 400px;
+            line-height: 400px;
+            /* Ficar no meio da tela o interaja  */
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--  <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> configuro os métodos ex: onclick etc -->
+    <div id="area">
+        Interaja aqui....
+
+    </div>
+    <script>
+        /*   // coloque o objeto de forma global para melhorar o escopo .Assim é possível chamar ele nas funções  */
+        var a = window.document.getElementById('area')
+        /* Não é a melhor coisa a se fazer ,no escopo por uso de memoria .Eu crio os meus eventos assim (de forma global ) que e melhor São 3 métodos que fica escutando ação ocorrer no exemplo da div */
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseup', clicouSoltou)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+        a.addEventListener('mousedown', clicouEsegurou)
+        function clicar() {
+            /*  // vai executar quando eu chamar o  clicar.
+             // criando um objeto a que está ligado com uma função area. */
+            /*    var a = window.document.getElementById('area') */
+            a.innerText = 'você clicou '
+            a.style.background = 'red'
+            a.style.color = 'black'
+
+        }
+        function clicouSoltou() {
+            a.innerText = 'você clicou e soltou '
+            a.style.background = 'grey'
+        }
+        function clicouEsegurou() {
+            a.innerHTML = 'Clicou e segurou !'
+            a.style.background = 'yellow'
+            a.style.color = 'blue'
+        }
+        function entrar() {
+            a.innerText = 'Entrou'
+            a.style.background = 'blue'
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+
+
+    </script>
+</body>
+
+</html>

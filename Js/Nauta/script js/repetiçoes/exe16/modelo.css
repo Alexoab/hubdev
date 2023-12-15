@@ -1,0 +1,31 @@
+body{
+background-color: rgb(83, 83, 242);
+font: normal 15pt Arial;
+}
+header{
+color: whitesmoke;
+text-align: center;
+}
+section{
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 23px;/*comprimento   */
+width: 500px;/* Largura */
+margin: auto; /* Centraliza */
+box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.366);/* 5 deslocamento lateral ,deslocamento vertical e espalhamento */
+
+}
+.forma{
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 3px;/*comprimento   */
+    width: 90px;/* Largura */
+    margin: auto; /* Centraliza */
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.366);
+    text-align: center;
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras</title>
+    <style>
+        body{
+            font : normal 20pt Arial;
+           
+        }
+        h1{
+            background-color: rgba(255, 0, 0, 0.746);
+        }
+        h2{
+            background-color: rgba(221, 171, 171, 0.746);
+        }
+    </style>
+</head>
+<body>
+   <script>
+
+var nome = window.prompt('Qual é o seu nome ? ')
+document.write(` Ola ,<strong>${nome}</strong> ! Seu nome tem ${nome.length} letras.<br>`) 
+document.write(`<h1>Seu nome em maiúscula é:</h1> ${nome.toLocaleUpperCase()}<br>`)
+document.write (`<h2>veja como fica o seu nome em minúscula:</h2> ${nome.toLowerCase()}`)
+/* > n1=1234.8
+1234.8
+> n1
+1234.8
+> n1.toFixed(3)
+'1234.800'
+> n1.toFixed(3).replace('.',',')
+'1234,800'
+> n1.toLocaleString('pt-br',{style 'currency',currency:'BRL'} )
+n1.toLocaleString('pt-br',{style 'currency',currency:'BRL'} )
+                                 ^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected string
+> n1.toLocaleString('pt-br', {style: 'currency', currency:'BRL'} )
+'R$ 1.234,80'
+> n1.toLocaleString('pt-br', {style: 'currency', currency:'USD'} )
+'US$ 1.234,80'
+> n1.toLocaleString('pt-br', {style: 'currency', currency:'EUR'} )
+'€ 1.234,80'
+> */
+   </script> 
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "workbench.colorTheme": "Dracula", // Define o tema de cor para o editor
+  "workbench.iconTheme": "material-icon-theme", // Define o conjunto de ícones para o editor
+  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"], // Executa a organização de importações e correções em todas as fontes ao salvar
+  "editor.formatOnSave": true, // Realiza a formatação do código ao salvar
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Define o formatador de código para arquivos JSON
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Define o formatador de código para arquivos TypeScript com sintaxe JSX
+  },
+  "diffEditor.wordWrap": "on", // Habilita a quebra de linha para o editor de comparação de arquivos
+  "editor.wordWrap": "on", // Habilita a quebra de linha para o editor de código-fonte
+  "git.autofetch": true, // Ativa o recurso de busca automática de alterações no Git
+  "terminal.integrated.defaultProfile.windows": "Git Bash", // Define o perfil padrão do terminal integrado como "Git Bash"
+  "explorer.compactFolders": false, // Desabilita a compactação de pastas no explorador de arquivos
+  "git.confirmSync": false, // Desabilita a confirmação de sincronização do Git
+  "[dart]": { // Configurações específicas para o plugin Dart
+    "editor.formatOnSave": true, // Realiza a formatação do código ao salvar
+    "editor.formatOnType": true, // Realiza a formatação do código ao digitar
+    "editor.rulers": [80], // Define uma régua na coluna 80 para ajudar a manter a linha dentro de limites razoáveis
+    "editor.selectionHighlight": false, // Desabilita o destaque de seleção do código
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // Permite a exibição de sugestões de código ao usar snippets
+    "editor.suggestSelection": "first", // Define a primeira sugestão como a opção padrão
+    "editor.tabCompletion": "onlySnippets", // Habilita a conclusão de código apenas para snippets
+    "editor.wordBasedSuggestions": false // Desabilita as sugestões de código baseadas em palavras
+  },
+  "git.suggestSmartCommit": false, // Desabilita as sugestões de confirmação inteligente do Git
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // Define o formatador de código para arquivos TypeScript
+  },
+  "explorer.confirmDragAndDrop": false, // Desabilita a confirmação de arrastar e soltar arquivos no explorador de arquivos
+  "explorer.confirmDelete": false // Desabilita a confirmação de exclusão de arquivos

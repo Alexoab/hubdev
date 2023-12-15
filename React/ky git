@@ -1,0 +1,35 @@
+Your identification has been saved in /root/.ssh/id_ed25519
+Your public key has been saved in /root/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:4TfGfcpunKtlz1r4hpBOWpizp6Jn2bBrHIK4gFpnBXM alexoab@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|    o E          |
+|     +  .        |
+|      .. o .     |
+|.. . .  So=.. .  |
+|+ o + o +o=o +   |
+|oo o o * B o*o.  |
+|o     O + o+==.  |
+|    .=.o.o.o+++  |
++----[SHA256]-----+
+
+
+Passo 2 : gh ssh-key add ~/.ssh/id_ed25519.pub
+> /home/oab/.ssh/id_ed25519.pub
+
+The following SSH key was added to your account:
+
+LinuxNotpersonal
+SHA256:egk1jW+Q/+T5eEriwM7zvBVyRyVz9NzFYXkCYZnVhnU
+
+If you believe this key was added in error, you can remove the key and disable
+access at the following location:
+
+https://github.com/settings/keys
+
+https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal
+
+cat .ssh/id_ed25519.pub 
+

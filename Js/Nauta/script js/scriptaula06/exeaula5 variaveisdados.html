@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgba(51, 49, 46, 0.418);
+            color: rgba(73, 6, 6, 0.37);
+            font: normal 22pt Arial;
+
+        }
+        h1{
+            
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: #000;
+            text-align: center;
+            color:yellow ;
+              
+        }
+        p{
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000;
+        color:rgba(255, 255, 0, 0.349) ;
+        text-align: center;
+        }
+      
+
+    </style>
+    <title>Aprendendo Java Script</title>
+</head>
+<body>
+    <h1>Ola, mundo vamos nessa! java script</h1>
+    <p>Até que fim vamos agora aprender</p>
+    <p> <img src="download.png" alt=""></p>
+    <script>
+        // aqui eu seto qual eu quero 
+    //var n1 = Number.parseInt(window.prompt('Digite um numero : '))
+    //var n2 = Number.parseInt(window.prompt('Digite outro numero :'))
+
+    // usando o Nunber() é uma versão mais recente 
+    var n1 = Number(window.prompt('Digite um numero : '))
+    var n2 = Number(window.prompt('Digite outro numero :'))
+    var s = n1 + n2
+  //  window.alert('A soma dos numeros são : ' + s)o + server para concatenaçao e soma .
+  // (Number + Number)para adição
+  //(String + string  ) para cocatenação
+  //window.prompt --> retorna string sempre , por isso deve ser feito o tratamento de dados
+  // por isso a importancia dos tipos de dados
+  // usando template string ${variavel}
+window.alert(`A soma entre ${n1} + ${n2} e igual ${s}`)
+
+      </script>
+</body>
+</html>

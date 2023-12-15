@@ -1,0 +1,36 @@
+
+
+body{
+background-color: rgb(83, 83, 242);
+font: normal 15pt Arial;
+}
+header{
+color: whitesmoke;
+text-align: center;
+}
+section{
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 23px;/*comprimento   */
+width: 500px;/* Largura */
+margin: auto; /* Centraliza */
+box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.366);/* 5 deslocamento lateral ,deslocamento vertical e espalhamento */
+
+}
+div{
+    text-align: center;
+    padding:9px ;
+}
+.sald {
+    font-family: 'Crimson Text', serif,Arial, Helvetica, sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 9px;
+    padding: 6px;
+    width: 296px;
+    margin: auto;
+    box-shadow: -5px 5px 10px  rgba(0, 0, 0, 0.366) ;
+}
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}

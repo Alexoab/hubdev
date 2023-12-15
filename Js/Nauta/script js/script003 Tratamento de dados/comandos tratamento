@@ -1,0 +1,9 @@
+Abra o NOde:
+n1 = 135.987
+135.987
+> n1.toFixed(4)
+'135.9870'
+> n1.toFixed(4).replace('.',',')
+'135,9870'
+> n1.toLocaleString('pt-BR' ,{style: 'currency',currency: 'BRL'})
+'R$ 135,99'

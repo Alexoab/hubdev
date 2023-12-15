@@ -1,0 +1,18 @@
+antes http: request
+hoje : fetch API
+
+front  <--->     back-end (é uma API)              <--->               banco de dados 
+1° requsita      valida: está logado ?                                     post
+                         tem uma conta ativa ?                             update 
+						                                                   Delete 
+*Assicrona (http)                                                          get
+*Json (padrão de  
+comunicação da web)
+  {
+  "name": "Jorge"
+  }
+
+Estude depois : 
+*AXIOS
+*React querey
+*SWR 

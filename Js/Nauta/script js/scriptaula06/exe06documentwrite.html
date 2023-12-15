@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 26pt Arial;
+            background-color: rgba(131, 131, 241, 0.39);
+        }
+        h1{/*comentario em CSS*/
+            background-color: bisque;
+            color: rgba(240, 248, 255, 0.548);
+        }
+        p{
+            -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1><!--Isso e um comentario-->
+    <p>Vamos aprender JavaScript ok ?</p>
+    <script>
+        var nome = window.prompt('Qual é os seu nome :)')
+        document.write(`seu nome é <strong>${nome}</strong> tem ${nome.length} letras `)
+        document.write(`Seu nome<em> ${nome.toUpperCase()}</em> em maiúscula `)
+        document.writeln(`Seu nome em letras minusculas é :<em><strong>${nome.toLowerCase()}</strong></em>`)
+    </script>
+</body>
+</html>

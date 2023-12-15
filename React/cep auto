@@ -1,0 +1,124 @@
+primeira :
+Adicione a dependência axios ao seu projeto. O axios é um cliente HTTP que você pode usar para fazer requisições à API.
+
+bash
+Copy code
+npm install axios
+
+Importe o axios no seu componente.
+
+javascript
+Copy code
+import axios from 'axios';
+
+Adicione um estado ao seu componente para armazenar os dados do endereço.
+const [endereco, setEndereco] = useState({});
+
+Crie uma função que será chamada quando o usuário digitar o CEP e pressionar 
+a tecla Enter. Essa função irá fazer uma requisição à API de consulta de 
+endereço por CEP e preencher os campos do endereço com os dados retornados.
+
+const handleCep = async (event) => {
+  const cep = event.target.value.replace(/\D/g, '');
+  if (cep.length !== 8) {
+    return;
+  }
+  try {
+    const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
+    setEndereco(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+Adicione um evento onKeyDown ao campo de CEP para chamar 
+a função handleCep quando o usuário pressionar a tecla Enter.
+<UnTextField name="cep" label="CEP" onKeyDown={handleCep} />
+
+Preencha os campos do endereço com os dados retornados pela API.
+
+<UnTextField name="rua" label="Rua" value={endereco.logradouro || ''} />
+<UnTextField name="bairro" label="Bairro" value={endereco.bairro || ''} />
+<UnTextField name="cidade" label="Cidade" value={endereco.localidade || ''} />
+<UnTextField name="estado" label="Estado" value={endereco.uf || ''} />
+
+<Grid
+      container
+      display="flex"
+      direction="column"
+      justifyContent="center"
+      spacing={2}
+    >
+      <Grid item mb="1rem">
+        <UnTextField name="cep" label="CEP" onKeyDown={handleCep} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="rua" label="Rua" value={endereco.logradouro || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="bairro" label="Bairro" value={endereco.bairro || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="cidade" label="Cidade" value={endereco.localidade || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="estado" label="Estado" value={endereco.uf || ''} />
+      </Grid>
+    </Grid>
+	
+	
+	
+	
+import React, { useState } from 'react';
+import axios from 'axios';
+import { Grid } from '@mui/material';
+import UnTextField from './UnTextField';
+
+const EnderecoForm = () => {
+  const [endereco, setEndereco] = useState({});
+
+  const handleCep = async (event) => {
+    const cep = event.target.value.replace(/\D/g, '');
+    if (cep.length !== 8) {
+      return;
+    }
+    try {
+      const response = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
+      setEndereco(response.data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return (
+    <Grid
+      container
+      display="flex"
+      direction="column"
+      justifyContent="center"
+      spacing={2}
+    >
+      <Grid item mb="1rem">
+        <UnTextField name="cep" label="CEP" onKeyDown={handleCep} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="rua" label="Rua" value={endereco.logradouro || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="bairro" label="Bairro" value={endereco.bairro || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="cidade" label="Cidade" value={endereco.localidade || ''} />
+      </Grid>
+      <Grid item mb="1rem">
+        <UnTextField name="estado" label="Estado" value={endereco.uf || ''} />
+      </Grid>
+    </Grid>
+  );
+};
+
+export default EnderecoForm;
+
+Observe que o componente EnderecoForm possui um estado endereco que é atualizado com os dados retornados pela API de consulta de endereço por CEP. O campo de CEP possui um evento onKeyDown que chama a função handleCep quando o usuário pressiona a tecla Enter. Essa função faz uma requisição à API e atualiza o estado endereco com os dados do endereço. Os campos de rua, bairro, cidade e estado 
+são preenchidos com os dados do estado endereco usando a propriedade value.
+

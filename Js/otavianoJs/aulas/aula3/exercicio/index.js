@@ -1,0 +1,2 @@
+/*  Exiba a seguinte frase : Olá ! meu nome é "Alex oliveira ", Estou aprendendo JavaScript ás 10 da manhã */
+console.log(`Ola meu nome é "Alex oliveira " Estou aprendendo JavaScript às`, 16, `da tarde`)

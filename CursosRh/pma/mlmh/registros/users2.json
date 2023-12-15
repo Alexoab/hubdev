@@ -1,0 +1,415 @@
+[{
+  "_id": {
+    "$oid": "634d64f3911af9451e61ba1c"
+  },
+  "name": "FLAVIA FERNANDA XAVIER",
+  "username": "003.430.071-69",
+  "email": "flaviafx@anapolis.go.gov.br",
+  "password": "$2a$08$zWQifC25vE8uMuBMV.6NguBfZGHzjruIXJ4tLb4JGGepjm.x9mSe6",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-17T14:21:39.019Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-01T12:03:39.439Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c18e1e296136d26559c16"
+  },
+  "name": "LIDIANE CAMARGO DE ALVARENGA",
+  "username": "032.688.331-28",
+  "email": "lidianecamargo@anapolis.go.gov.br",
+  "password": "$2a$08$9xLJ/n2IQnhx/.E0lb/f3e/4EUro415iAescYEk/EeMfn74JUJV1O",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:01:05.165Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-01T12:37:15.757Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1c9fe296136d26559c34"
+  },
+  "name": "Ney Ferreira dos santos",
+  "username": "381.625.391-15",
+  "email": "ney@anapolis.go.gov.br",
+  "password": "$2a$08$B6vBIzpBqUiBIoUBgKIhU.oKSY8z0Zl84yhjjx0EODj29vUFF6KLG",
+  "role": "admin",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:17:03.112Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-30T18:53:05.639Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1d00e296136d26559c39"
+  },
+  "name": "Roberto Naves e Siqueira",
+  "username": "901.770.701-10",
+  "email": "roberto@anapolis.go.gov.br",
+  "password": "$2a$08$DiM953JQcoa1H3OZYFnWGOkV2DSI6CPBawECWhSwckUUpWyhoKq8C",
+  "role": "user",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:18:40.859Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T18:18:40.859Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1d5ee296136d26559c3e"
+  },
+  "name": "LUIZ CARLOS ANTÔNIO NOGUEIRA JUNIOR",
+  "username": "046.544.691-41",
+  "email": "luizjunior@anapolis.go.gov.br",
+  "password": "$2a$08$HX4gBpbqSLfSng3k4mrD1uXkdNUmjQvUXnBoGc0JC2y0piX5IhzdW",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:20:14.498Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T22:04:53.803Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1dd9e296136d26559c43"
+  },
+  "name": "LUCIANNA DE JESUS CASTELO VASCONCELOS",
+  "username": "012.415.611-84",
+  "email": "lucianacastelo@anapolis.go.gov.br",
+  "password": "$2a$08$heudoaBRWF8K39ov38lL/uQ3Z2mbanWvblSmc6fX3B.vY762i7pIq",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:22:17.360Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-31T12:03:05.910Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1df7e296136d26559c48"
+  },
+  "name": "ALLISON ERICK GOMES DE SENA",
+  "username": "019.124.631-05",
+  "email": "allisonerik@anapolis.go.gov.br",
+  "password": "$2a$08$bvs.f6eTs70lPczOTtUC4utq1ZTNClvU0NAc.ndJowZJwNIDrzV/y",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:22:47.496Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T18:22:47.496Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1e18e296136d26559c4d"
+  },
+  "name": "MARIA DE FATIMA CIQUEIRA MIGUEL",
+  "username": "874.241.854-20",
+  "email": "mariaciqueira@anapolis.go.gov.br",
+  "password": "$2a$08$XG.0IxlN7zRjKPD.FASBBudZM0f4fOghBwUXoW4MwxEjCLTgw7LKS",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:23:20.260Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T13:18:17.684Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1e3fe296136d26559c54"
+  },
+  "name": "MARCIA JACINTA SILVA SOUSA",
+  "username": "628.217.411-20",
+  "email": "mariajacinta@anapolis.go.gov.br",
+  "password": "$2a$08$qhlxyko0Hl1RzEJpkg0PG.4spBoLijuvl17EI5h/y/Fq1zGQBY0iu",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:23:59.092Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T18:23:59.092Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c1f95e296136d26559c5f"
+  },
+  "name": "VALÉRIA CRISTINA DE FREITAS",
+  "username": "016.598.681-65",
+  "email": "valeriafreitas@anapolis.go.gov.br",
+  "password": "$2a$08$ZMHn.NFa42xFOZ9.ZYRtEO2bYOzunLHYAtpnL9QSKA1fG46bmUM3e",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:29:41.996Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T19:10:25.858Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635c22f5e296136d26559c6e"
+  },
+  "name": "Breno Gomes da Fonseca",
+  "username": "700.193.291-48",
+  "email": "brenogfonseca@gmail.com",
+  "password": "$2a$08$y0VzN9PiVbgUJa319q2vzu0UTHHbhQUaX8ErdC/b6RfLD4SrxtvFq",
+  "role": "admin",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-10-28T18:44:05.219Z"
+  },
+  "updatedAt": {
+    "$date": "2022-10-28T18:47:08.983Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "636e979265b7115d5a5f1b08"
+  },
+  "name": "adriano barbosa dos santos",
+  "username": "024.204.791-22",
+  "email": "adriano.barbosa100@gmail.com",
+  "password": "$2a$08$wzcs2oqrijuCHcGvzl5iQ.Nqh8uPhz6W/savcCwXQcGSk36cskc5S",
+  "role": "admin",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2022-11-11T18:42:26.303Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T19:50:51.754Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b473e278f3381c6fbb4be4"
+  },
+  "name": "Susana de Souza Guimarães Pagan",
+  "username": "018.873.181-43",
+  "email": "susana@anapolis.go.gov.br",
+  "password": "$2a$08$7qRFmnIjZZY3oh3GdNPiBeUzZP8fkLHtkpJjUJ4Uaj94fcmGCk.za",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:28:50.092Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T18:28:50.092Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4740178f3381c6fbb4be9"
+  },
+  "name": "Regiane de Moura Camargo",
+  "username": "931.130.481-68",
+  "email": "regianecamargo@anapolis.go.gov.br",
+  "password": "$2a$08$lF.dN9VPX/2ihkDIPzEiF.Tg.UDA3b/VnxOD4ajuXcUWpfuYcXDsu",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:29:21.873Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T18:59:56.141Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4741a78f3381c6fbb4bee"
+  },
+  "name": "Keila Beatriz Rodrigues Gomes",
+  "username": "599.525.981-49",
+  "email": "keila@anapolis.go.gov.br",
+  "password": "$2a$08$NZZ2ndjJReSqflRbSw/3luOUblULvh5unoXdddKwK9/Bjj6u3vT2W",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:29:46.339Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T18:29:46.339Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4743278f3381c6fbb4bf3"
+  },
+  "name": "João Victor Orestes de Souza",
+  "username": "704.279.831-77",
+  "email": "joaosouza@anapolis.go.gov.br",
+  "password": "$2a$08$asVduPeki7hRVsPgyxoH2eKPLHm6cMWrFmE8Il0Pd6lkANd6OfpOu",
+  "role": "analista",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:30:10.617Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T14:10:09.616Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4745578f3381c6fbb4bf8"
+  },
+  "name": "Jeane de Melo Ferreira",
+  "username": "893.849.891-34",
+  "email": "jeanneferreira@anapolis.go.gov.br",
+  "password": "$2a$08$3PM3c/4P/0VhG8wBCdjLBeomuYtHbXVgAaC8ExVXYQLq.QRsZiTzm",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:30:45.630Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T18:30:45.630Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4748478f3381c6fbb4bfd"
+  },
+  "name": "Gabriel Ferreira Dantas",
+  "username": "041.503.421-30",
+  "email": "gabrieldantas@anapolis.go.gov.br",
+  "password": "$2a$08$3MoQulv.GLQiy25ElZi2d.ulS.QuzY08CeoxQ/1SfdJVqoM97mTta",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:31:32.900Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T18:31:32.900Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63b4749e78f3381c6fbb4c02"
+  },
+  "name": "Danilva Alves Teixeira",
+  "username": "019.359.911-24",
+  "email": "danilva@anapolis.go.gov.br",
+  "password": "$2a$08$xoZlk/SmDVc/khHMGo6LH.kb6biKTwQLmLDpMioyMtSGY6FefMr4.",
+  "role": "analista",
+  "acesso": false,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-01-03T18:31:58.536Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T18:31:58.536Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642da4a53ca594331c8d4206"
+  },
+  "name": "Cleidimar Dias da Silva",
+  "username": "003.825.871-46",
+  "email": "cleidimarcdsc@gmail.com",
+  "password": "$2a$08$tMpSuSYk5g.SaNTZxJrdpeleFLPhGtoIcDApxV2Za8BrW1sgLDxXG",
+  "role": "user",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-04-05T16:41:09.696Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-05T17:03:49.509Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642da4e53ca594331c8d420b"
+  },
+  "name": "Alex Oliveira Abreu Batista",
+  "username": "913.765.211-72",
+  "email": "alexoab@gmail.com",
+  "password": "$2a$08$4U/yXWB44Zn/u3bgMVeFBeY7NnS1M1l4TjUT15xsD/vGfbAWWDVVe",
+  "role": "user",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-04-05T16:42:13.752Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-05T17:04:07.068Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642da5da3ca594331c8d4210"
+  },
+  "name": "Alan Candido Silveira Assis",
+  "username": "068.037.431-01",
+  "email": "alancsassis@outlook.com",
+  "password": "$2a$08$QLMtezQ7vYEEVTk9Ekvf3OzP4etm3sj7EDCtHfSsihh7ollprIPMa",
+  "role": "user",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-04-05T16:46:18.367Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-05T17:01:58.885Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642da9585cf1c6928340c985"
+  },
+  "name": "Gabriel Oliveira",
+  "username": "709.217.361-26",
+  "email": "gabrieloliveiracf118@gmail.com",
+  "password": "$2a$08$xWXWYlGlTpuZkurdFpBKfOfGLmaudQ.1YyuphS2LkcGu6QebsgiQe",
+  "role": "user",
+  "acesso": true,
+  "isEmailVerified": false,
+  "createdAt": {
+    "$date": "2023-04-05T17:01:12.535Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-05T17:04:08.050Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,209 @@
+[{
+  "_id": {
+    "$oid": "63768a3b65b7115d5a6e360a"
+  },
+  "tipo": "CNH",
+  "label": "Carteira De Habilitação",
+  "createdAt": {
+    "$date": "2022-11-17T19:23:39.202Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-17T19:23:39.202Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63768a5265b7115d5a6e360e"
+  },
+  "tipo": "CI",
+  "label": "Carteira De Identidade",
+  "createdAt": {
+    "$date": "2022-11-17T19:24:02.940Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-17T19:24:02.940Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63768a7665b7115d5a6e3615"
+  },
+  "tipo": "COMP_ENDERECO",
+  "label": "Comprovante De Endereço",
+  "createdAt": {
+    "$date": "2022-11-17T19:24:38.919Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-17T19:24:38.919Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b5e34acfca66d9c9a957d"
+  },
+  "tipo": "CPF",
+  "label": "Cadastro De Pessoa Física",
+  "createdAt": {
+    "$date": "2022-11-21T11:17:08.352Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T11:17:08.352Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b5e56acfca66d9c9a959c"
+  },
+  "tipo": "CN",
+  "label": "Certidão De Nascimento",
+  "createdAt": {
+    "$date": "2022-11-21T11:17:43.000Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T11:17:43.000Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b620cacfca66d9c9a9f80"
+  },
+  "tipo": "CTPS",
+  "label": "Carteira De Trabalho",
+  "createdAt": {
+    "$date": "2022-11-21T11:33:32.554Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T11:33:32.554Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b65d4acfca66d9c9aa395"
+  },
+  "tipo": "DOC._DE RENDA",
+  "label": "Contracheque Dos Três Últimos Meses",
+  "createdAt": {
+    "$date": "2022-11-21T11:49:40.756Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T11:49:40.756Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b67eeacfca66d9c9aa5e5"
+  },
+  "tipo": "VIOLENCIA_DOMES",
+  "label": "Inquérito Policial Ou Denuncia",
+  "createdAt": {
+    "$date": "2022-11-21T11:58:38.978Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T11:58:38.978Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b68faacfca66d9c9aa6ff"
+  },
+  "tipo": "DOC_RENDA",
+  "label": "Extrato Banc 3 Últimos Meses",
+  "createdAt": {
+    "$date": "2022-11-21T12:03:06.487Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:03:06.487Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b6928acfca66d9c9aa71f"
+  },
+  "tipo": "DIR",
+  "label": "Dec De Imposto De Renda",
+  "createdAt": {
+    "$date": "2022-11-21T12:03:52.715Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:03:52.715Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b6948acfca66d9c9aa73e"
+  },
+  "tipo": "DRTI",
+  "label": "Dec De Renda Trabalho Informal",
+  "createdAt": {
+    "$date": "2022-11-21T12:04:24.685Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:04:24.685Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b6974acfca66d9c9aa77f"
+  },
+  "tipo": "CADÚNICO",
+  "label": "Espelho Do Cadastro Único",
+  "createdAt": {
+    "$date": "2022-11-21T12:05:08.406Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:05:08.406Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b6998acfca66d9c9aa79e"
+  },
+  "tipo": "PMP",
+  "label": "Pedido De Medida Protetiva",
+  "createdAt": {
+    "$date": "2022-11-21T12:05:44.312Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:05:44.312Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b69ffacfca66d9c9aa81a"
+  },
+  "tipo": "SENTENÇA",
+  "label": "Sentença Condenatória",
+  "createdAt": {
+    "$date": "2022-11-21T12:07:27.816Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:07:27.816Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637b6a2facfca66d9c9aa85e"
+  },
+  "tipo": "LAUDO_MÉDICO",
+  "label": "Comprovante De Deficiência",
+  "createdAt": {
+    "$date": "2022-11-21T12:08:15.905Z"
+  },
+  "updatedAt": {
+    "$date": "2022-11-21T12:08:15.905Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63bf0fe478f3381c6fdc4f02"
+  },
+  "tipo": "CERT_CASA",
+  "label": "Certidão De Casamento ou União Estável",
+  "createdAt": {
+    "$date": "2023-01-11T19:37:08.071Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T19:37:08.071Z"
+  },
+  "__v": 0
+}]
